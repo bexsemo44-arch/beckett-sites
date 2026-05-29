@@ -1,0 +1,6 @@
+body{font-family:Arial;margin:0;background:#f8f9fa;}
+.container{display:flex;gap:20px;padding:20px;}
+.infobox{width:280px;border:1px solid #aaa;padding:10px;background:#fff;}
+.content{flex:1;background:#fff;padding:20px;border:1px solid #aaa;}
+.site-header{padding:20px;background:#fff;border-bottom:1px solid #aaa;}
+@media(max-width:800px){.container{flex-direction:column;}}
